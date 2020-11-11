@@ -2,6 +2,7 @@
 
 (use-package rust-mode
   :defer t
+  :ensure t
   :config
   (setq rust-indent-method-chain t)
   (setq show-trailing-whitespace t)
@@ -16,7 +17,9 @@
 
 (use-package rustic
   :ensure t
-  :hook rust
+  :hook (rust-mode . (lambda ()
+                       (require 'rustic)
+                       (lsp-deferred)))
   :config
   (setq rustic-lsp-server 'rust-analyzer)
   (setq rustic-rls-pkg 'lsp-mode)

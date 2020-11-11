@@ -15,7 +15,7 @@
  '(objed-cursor-color "#D16969")
  '(package-selected-packages
    (quote
-    (load-relative clojure-mode yaml-mode intero haskell-mode transient magit doom-themes spacemacs-theme nix-mode init-open-recentf company company-mode reverse-im use-package)))
+    (hl-todo lsp-python-ms load-relative clojure-mode yaml-mode intero haskell-mode transient magit doom-themes spacemacs-theme nix-mode init-open-recentf company company-mode reverse-im use-package)))
  '(pdf-view-midnight-colors (cons "#d4d4d4" "#1e1e1e"))
  '(rustic-ansi-faces
    ["#1e1e1e" "#D16969" "#579C4C" "#D7BA7D" "#339CDB" "#C586C0" "#85DDFF" "#d4d4d4"])

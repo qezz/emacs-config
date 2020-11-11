@@ -43,8 +43,8 @@
   (load-package-or-all-files (f-join config-home "config/editor"))
   (load-package-or-all-files (f-join config-home "config/langs")))
 
-(unless (f-directory? "config")
-    (f-mkdir "config"))
+(unless (f-directory? (f-join config-home "config"))
+    (f-mkdir (f-join config-home "config")))
 
 (load-config-dir-recur)
 

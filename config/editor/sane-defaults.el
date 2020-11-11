@@ -32,3 +32,6 @@
 
 (setq require-final-newline t)
 (setq show-trailing-whitespace t)
+
+(global-display-line-numbers-mode)
+(show-paren-mode 1)

@@ -4,4 +4,6 @@
 
 (use-package magit
   :defer t
-  :ensure t)
+  :ensure t
+  :config
+  (setq magit-diff-hide-trailing-cr-characters t))
