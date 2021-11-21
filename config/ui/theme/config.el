@@ -14,5 +14,5 @@
 
 (cond
  ((null window-system) (load-theme 'wombat t))
- ((eq ns 'x) (load-theme 'doom-nord t))
+ ((eq ns 'x) (load-theme 'doom-gruvbox t))
  ((eq ns 'darwin) (load-theme 'spacemacs-light t)))
