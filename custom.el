@@ -6,16 +6,14 @@
  '(ansi-color-names-vector
    ["#1e1e1e" "#D16969" "#579C4C" "#D7BA7D" "#339CDB" "#C586C0" "#85DDFF" "#d4d4d4"])
  '(custom-safe-themes
-   (quote
-    ("8d7684de9abb5a770fbfd72a14506d6b4add9a7d30942c6285f020d41d76e0fa" "76bfa9318742342233d8b0b42e824130b3a50dcc732866ff8e47366aed69de11" "bf387180109d222aee6bb089db48ed38403a1e330c9ec69fe1f52460a8936b66" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8" default)))
+   '("8d7684de9abb5a770fbfd72a14506d6b4add9a7d30942c6285f020d41d76e0fa" "76bfa9318742342233d8b0b42e824130b3a50dcc732866ff8e47366aed69de11" "bf387180109d222aee6bb089db48ed38403a1e330c9ec69fe1f52460a8936b66" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8" default))
  '(fci-rule-color "#37474F")
  '(jdee-db-active-breakpoint-face-colors (cons "#171F24" "#237AD3"))
  '(jdee-db-requested-breakpoint-face-colors (cons "#171F24" "#579C4C"))
  '(jdee-db-spec-breakpoint-face-colors (cons "#171F24" "#777778"))
  '(objed-cursor-color "#D16969")
  '(package-selected-packages
-   (quote
-    (hl-todo lsp-python-ms load-relative clojure-mode yaml-mode intero haskell-mode transient magit doom-themes spacemacs-theme nix-mode init-open-recentf company company-mode reverse-im use-package)))
+   '(exec-path-from-shell toml-mode yasnippet go-mode ein csharp-mode rustic sqlformat hl-todo lsp-python-ms load-relative clojure-mode yaml-mode intero haskell-mode transient magit doom-themes spacemacs-theme nix-mode init-open-recentf company company-mode reverse-im use-package))
  '(pdf-view-midnight-colors (cons "#d4d4d4" "#1e1e1e"))
  '(rustic-ansi-faces
    ["#1e1e1e" "#D16969" "#579C4C" "#D7BA7D" "#339CDB" "#C586C0" "#85DDFF" "#d4d4d4"])
