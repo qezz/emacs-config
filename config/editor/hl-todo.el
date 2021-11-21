@@ -1,6 +1,6 @@
 (use-package hl-todo
   :ensure t
-  :defer t
-  :config
-  (hl-todo-mode)
-  (hl-line-mode))
+  :config (progn
+            (if window-system
+                (global-hl-line-mode))
+            (global-hl-todo-mode)))
