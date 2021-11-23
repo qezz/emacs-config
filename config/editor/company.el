@@ -1,7 +1,7 @@
 (use-package company
   :ensure t
   :custom
-  (company-idle-delay 0.5)
+  (company-idle-delay 0.2)
   (company-selection-wrap-around t)
   :bind (:map company-active-map
 	      ("C-n". company-select-next)
